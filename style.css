@@ -1,0 +1,149 @@
+ {
+  box-sizing: border-box;
+  font-size: 1.5 rem;
+}
+body {
+  margin: 0;
+}
+
+.wrapper {
+}
+h1 {
+}
+background: blue;
+.header {
+  background: green;
+}
+.banner {
+  background: radial-gradient(blue, red; min-height: 30vh);
+}
+.side-box1 {
+  background: purple;
+}
+
+.side-box2 {
+  background: brown;
+}
+.side-menu {
+  background: orange;
+}
+.tags {
+  background: red;
+}
+.recent {
+  background: red;
+}
+.main {
+  background: linear-gradient(to right, blue, red);
+  min-height: 300px;
+}
+
+footer {
+  background: black;
+  color: white;
+}
+
+style.css body {
+  background: black;
+  font-size: 3rem;
+}
+
+.wrapper {
+  background: yellow;
+  padding: 1rem;
+  height: 50vh;
+
+  /* grid system */
+  display: grid;
+  gap: 5px;
+
+  grid-template-rows: 3fr 40px 50%;
+  grid-template-areas:
+    "item1 item1 item 4 item1 "
+    "item4 item5 item6 item3"
+    "item7 item8 item8 item1 ";
+}
+
+.wrapper > div {
+  background: pink;
+}
+
+.item-1 {
+  grid-area: item1;
+}
+
+.item-2 {
+  grid-area: item2;
+}
+
+.item-3 {
+  grid-area: item3;
+}
+
+.item-4 {
+  grid-area: item4;
+}
+
+.item-5 {
+  grid-area: item5;
+}
+
+.item-6 {
+  grid-area: item6;
+}
+
+.item-7 {
+  grid-area: item7;
+}
+
+.item-8 {
+  grid-area: item8;
+}
+
+.item-9 {
+  grid-area: item9;
+}
+
+/*max with 1000px*/
+@media (max)
+/*max with 768px*/
+
+@media (max-width:768px){
+    .wrapper }
+    display:grid;
+    grid-template -areas:
+
+"h1"
+"header"
+"banner"
+"sb2"
+"sb1"
+"sm"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
